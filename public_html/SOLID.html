@@ -61,9 +61,8 @@
             <h4>S (Single Responsibility Principle)</h4>
             <p>According to the Single Responsibility Principle, each class should only have one job. If a class has many responsibilities, it is said to be coupled.
                 When one responsibility is modified, the other responsibility is modified as well.</p>
-            <p>Take a look at the Multiplication class to the right.
-                <li>which has only one job to get the values from Calculation class and multiply them.</li>
-            </p>
+            <p>Take a look at the Multiplication class to the right.</p>
+              <menu> <li>which has only one job to get the values from Calculation class and multiply them.</li></menu>
         </div>
         <div class="col-sm-5">
             <h4>Multiplication Class</h4>
@@ -85,13 +84,13 @@
         <div class="row mt-3">
             <div class="col-sm-7">
                 <h4>O (Open-Closed Principle)</h4>
-                <p>According to the Open-Closed Principle, classes, methods and functions should be open for extension and not modification. .</p>
-                <p>Take a look at the Calculations class to the right.
-                    <li>We have a Calculations class which consist of methods such as get_last_calculation history, count history
+                <p>According to the Open-Closed Principle, classes, methods and functions should be open for extension and not modification.</p>
+                <p>Take a look at the Calculations class to the right.</p>
+                <menu><li>We have a Calculations class which consist of methods such as get_last_calculation history, count history
                 etc. </li>
                 <li>You can not add get_last_calculation and count history together under one method, instead you should extend under this class so
-                that both method are separate.</li>
-                </p>
+                that both method are separate.</li></menu>
+
             </div>
             <div class="col-sm-5">
                 <h4>Calculations Class</h4>
@@ -121,9 +120,9 @@ def get_last_calculation():
             <h4>L (Liskov Substitution Principle)</h4>
             <p>According to the Liskov Substitution Principle, its gives us the ability to replace any instance of a parent class with an instance of one
             of its child classes without negative side effects.</p>
-            <p>Take a look at the Subtraction class to the right.
-            <li>You can directly give it a value and it would not break anything in parent class.</li>
-            </p>
+            <p>Take a look at the Subtraction class to the right.</p>
+           <menu><li>You can directly give it a value and it would not break anything in parent class.</li></menu>
+
         </div>
         <div class="col-sm-5">
             <h4>Subtraction Class(Child Class)</h4>
@@ -143,13 +142,13 @@ def get_result(self):
         <div class="col-sm-7">
             <h4>I (Interface Segregation Principle)</h4>
             <p>According to the Interface Segregation Principle, the principle states that no client should be forced to depend on methods it does not use.</p>
-            <p>Take a look at the example to the right. The example is in java coding language.
-            <li>Class called ALLInOnePrinter has 3 methods defined. Majority of printers will be able to use all methods listed.</li>
+            <p>Take a look at the example to the right. The example is in java coding language.</p>
+            <menu><li>Class called ALLInOnePrinter has 3 methods defined. Majority of printers will be able to use all methods listed.</li>
             <li>There are some old printers which does not have the functionality of scan or fax.</li>
             <li>We don't have such printers to throw us errors when they are not supposed to use those methods but still forced to use because they are part of one class.</li>
             <li>The way to solve this problem is to create separate interfaces and only assign the ones that use the functionality.</li>
-            <li>The OldPrinter Class only uses the print functionality so assign only that method.</li>
-            </p>
+            <li>The OldPrinter Class only uses the print functionality so assign only that method.</li></menu>
+
         </div>
         <div class="col-sm-5">
             <h4>Example Class</h4>
@@ -200,11 +199,11 @@ class OldPrinter : IPrinter
             <h4>D (Dependency Inversion Principle)</h4>
             <p>According to the Dependency Inversion Principle, high level classes should not depend on low level classes but instead both should
             depend on abstraction.</p>
-            <p>Take a look at the example classes to the right.
-                <li>Through the calculator set up, the high level did not change so much. When we added division class we made the modification to abstraction level</li>
+            <p>Take a look at the example classes to the right.</p>
+              <menu><li>Through the calculator set up, the high level did not change so much. When we added division class we made the modification to abstraction level</li>
             <li>We added a new class called Division just like Addition.</li>
-            <li>We then used the low-level class to create the object for Division and call the Division method from abstraction.</li>
-            </p>
+            <li>We then used the low-level class to create the object for Division and call the Division method from abstraction.</li></menu>
+
         </div>
         <div class="col-sm-5">
             <h4>High-Level Class</h4>
@@ -251,7 +250,7 @@ return calculation.get_result()
     <a href="https://dzone.com/articles/solid-principles-by-example-interface-segregation">Reference 2</a>
     <a href="https://medium.com/@kedren.villena/simplifying-dependency-inversion-principle-dip-59228122649a">Reference 3</a>
     <a href="https://github.com/jp772/Project2">GitHub Repo</a>
-    <img src="Images/W3c.png" alt="w3c html validation" width="100" height="50">
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fproject2tutorial.eastus.azurecontainer.io%2F" rel="nofollow" title="Validate as HTML5"><img alt="w3c" src="Images/W3c.png" style="height: 50px; width: 100px"></a>
 </footer>
 
 

@@ -62,12 +62,12 @@
             <p>Encapsulation is achieved when each object within a class maintains its state private.
                 This state is not accessible to other objects directly. They can only call a set of public functions known as methods.</p>
             <p>Lets take a look at the example to the right.</p>
-            <p><li>First, calc_test.py creates an object called calc.</li>
+            <menu><li>First, calc_test.py creates an object called calc.</li>
             <li>Second, the object is used to call the add_number method with static entry 8.</li>
             <li>Third, the add method from main.py adds the value and returns the result back to calc_test.py. </li>
             <li>Let's say if you wanted the method to subtract, that would not work since add method is only defined to add.</li>
-            <li>We achieved encapsulation by calling the add_number and letting it do whatever it is defined to do.</li>
-            </p>
+            <li>We achieved encapsulation by calling the add_number and letting it do whatever it is defined to do.</li></menu>
+
         </div>
         <div class="col-sm-5">
             <h5>calc_test.py</h5>
@@ -95,11 +95,10 @@
                 <p>Inheritance is a technique for generating a new class that uses the details of an existing one without changing it.
                     A derived class is the freshly produced class (or child class) from a parent class. </p>
                 <p>Lets take a look at the example to the right.</p>
-                <p><li>First, we have the parent class called Addition.py at the top.</li>
+                <menu><li>First, we have the parent class called Addition.py at the top.</li>
                 <li>Second, we created Main.py which calls the Addition class and uses the same properties.</li>
                 <li>Third, we add new property called calculations.add_calculation(calculation) which sends data to another class.</li>
-                <li>We achieved Inheritance by using the same details from parent class without changing and adding additional properties.</li>
-                </p>
+                <li>We achieved Inheritance by using the same details from parent class without changing and adding additional properties.</li></menu>
 
             </div>
             <div class="col-sm-5">
@@ -130,10 +129,10 @@
             <p>Polymorphism allows you to utilize a class that is identical to its parent, avoiding type confusion. However, each child class retains its own methods.
                 This is usually accomplished by defining a reusable (parent) interface. It describes a number of common techniques. The child classes then implement their own versions of these methods.</p>
             <p>Lets take a look at the example to the right.</p>
-            <p><li>First, we have the parent class called Calculations.py where we have the clear_history method.</li>
+            <menu><li>First, we have the parent class called Calculations.py where we have the clear_history method.</li>
             <li>Second, we created Calculator_test.py to use the identical method for clear_history as from Calculations.py and using them differently from the parent class.</li>
             <li>Third, clear_history in Calculator_test.py acts like common interface which gets reused for below function test_clear_history</li>
-            </p>
+            </menu>
 
         </div>
         <div class="col-sm-5">
@@ -165,12 +164,12 @@ def test_clear_history(clear_history):
             <p>Abstraction means hiding the complexity and only showing the essential features of the object. So in a way, Abstraction means hiding the real implementation and we, as a user, knowing only how to use it.
                 Real world example would be a vehicle which we drive without caring or knowing what all is going underneath.</p>
             <p>Lets take a look at the example to the right.</p>
-            <p><li>First, we have a child class calc_test.py which imports abstract class called Calculator at the top. </li>
+            <menu><li>First, we have a child class calc_test.py which imports abstract class called Calculator at the top. </li>
             <li>Second, we don't know what the abstract class does since its hidden but we can can create an object of that abstract class called "calc". </li>
-            <li>Third, we invoke the add_number() method using the object "calc".</li>
+            <li>Third, we invoke the add_number() method using the object "calc".</li></menu>
 
             <p>We know how to invoke the methods inside the abstract class but we dont know what they actually do.</p>
-            </p>
+
 
         </div>
         <div class="col-sm-5">
@@ -201,11 +200,9 @@ def test_add():
     <h6>References</h6>
     <a href="https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/">Reference 1</a>
     <a href="https://github.com/jp772/Project2">GitHub Repo</a>
-    <img src="Images/W3c.png" alt="w3c html validation" width="100" height="50">
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fproject2tutorial.eastus.azurecontainer.io%2F" rel="nofollow" title="Validate as HTML5"><img alt="w3c" src="Images/W3c.png" style="height: 50px; width: 100px"></a>
 </footer>
-</div>
-</div>
-</div>
+
 
 
 <script crossorigin="anonymous" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
