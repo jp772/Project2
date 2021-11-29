@@ -2,10 +2,8 @@
 
 [History of the internet](http://dpjhistoryproject.eastus.azurecontainer.io/)
 
-Team: 
+Page: 10 Pylint & OOP Tutorial
+Page: 11 OOP Principles
+Page: 12 AAA Testing
+Page: 13 SOLID
 
-Dhruv Shah (pages home to 3)
-
-Jay Patel (pages 4 to 6)
-
-Purav Patel (pages 7 to 9)
